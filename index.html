@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Home | Imperial Crest Industries</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-fixed": "#ffdea5", "primary-container": "#d4af37", "surface-container": "#1f1f24", "on-error-container": "#ffdad6", "tertiary-fixed": "#dfe2f0", "secondary-container": "#604403", "on-primary": "#3c2f00", "error-container": "#93000a", "on-error": "#690005", "on-tertiary": "#2c303b", "inverse-surface": "#e3e2e8", "surface-bright": "#38393e", "tertiary-container": "#afb2bf", "on-secondary-fixed-variant": "#5d4201", "tertiary": "#cbcedb", "on-tertiary-fixed-variant": "#434752", "tertiary-fixed-dim": "#c3c6d3", "on-secondary-fixed": "#261900", "secondary": "#e9c176", "surface-container-high": "#292a2e", "inverse-primary": "#735c00", "on-primary-fixed-variant": "#574500", "surface-variant": "#343439", "primary-fixed-dim": "#e9c349", "outline-variant": "#4d4635", "background": "#121317", "on-tertiary-fixed": "#171b25", "surface-container-highest": "#343439", "secondary-fixed-dim": "#e9c176", "on-surface-variant": "#d0c5af", "error": "#ffb4ab", "surface-dim": "#121317", "on-secondary": "#412d00", "surface-tint": "#e9c349", "on-primary-fixed": "#241a00", "on-tertiary-container": "#414550", "surface-container-lowest": "#0d0e12", "surface-container-low": "#1a1b20", "on-background": "#e3e2e8", "surface": "#121317", "inverse-on-surface": "#2f3035", "on-primary-container": "#554300", "primary-fixed": "#ffe088", "on-secondary-container": "#dab36a", "primary": "#f2ca50", "on-surface": "#e3e2e8", "outline": "#99907c" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-xl": "3rem", "space-xs": "0.25rem", "margin-mobile": "1.25rem", "margin": "4rem", "gutter-mobile": "1rem", "margin-tablet": "2rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1.5rem", "space-lg": "1.75rem", "gutter-tablet": "1.25rem" }, fontFamily: { "body-lg": ["Plus Jakarta Sans"], "display-hero": ["Playfair Display"], "label-caps-lg": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "headline-xl": ["Playfair Display"], "display-hero-mobile": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "label-caps-sm": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "headline-xl-mobile": ["Playfair Display"], "body-xl": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"] }, fontSize: { "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "300" }], "display-hero": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }], "label-caps-lg": ["13px", { lineHeight: "18px", letterSpacing: "0.12em", fontWeight: "600" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "0em", fontWeight: "600" }], "body-md": ["14px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "headline-xl": ["40px", { lineHeight: "48px", letterSpacing: "-0.015em", fontWeight: "500" }], "display-hero-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "label-caps-sm": ["11px", { lineHeight: "16px", letterSpacing: "0.15em", fontWeight: "600" }], "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "0em", fontWeight: "600" }], "headline-xl-mobile": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "500" }], "body-xl": ["18px", { lineHeight: "28px", letterSpacing: "0.01em", fontWeight: "300" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "500" }] } } } };</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; background-color: #121317; color: #e3e2e8; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,0,0,0.5)]"><div class="h-20 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Imperial Crest Industries Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBobsrbOW4r3d6ltyvJYAe-xZ9H9TIxCaFYOiKyzR60QhVmEcJM3UyNYpiGamjo9CJA_ccealMnM1m892e6jPW8zFvgoXAlTr1XQhG6WMgWM0CbMIrDnHCJxU04_NLcx2mYo18YZiPso8s-jLFDZEtI90MqVl1vzKptm5IlRns1hcTCWEbwzMeCODs5ezvxRapqXsHuf9h4d932q638n5bBjtKPR35R1QWm8RgRxB4l"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-wider text-secondary uppercase">IMPERIAL CREST</span><span class="font-label-caps-sm text-label-caps-sm text-outline tracking-widest uppercase">Home</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Call Imperial Crest" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-high/80 text-secondary hover:text-primary transition-colors" href="tel:0798784674"><span class="material-symbols-outlined text-[20px]">call</span></a><button aria-label="Toggle Menu" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-high/80 text-on-surface hover:text-primary transition-colors" onclick="document.getElementById('mobile-drawer').classList.toggle('hidden')" type="button"><span class="material-symbols-outlined text-[22px]">menu</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ml-1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMGZiXcyH-7aNEiOOrWgMdRLO6tAXYWSQJLrv1SXNG1ex0m4Yjqg3gJ6cPOJdhAlp2C5NZgMnGTySHZiER9pTERCAq1UydcZyElxLh5OGFArIrXtWelXCi-lSdj-Twlf2DOOhej3YCNXD7zbZYEoWhS8c_IvMfPl0T_f_y-3BuD65GL7SijSF0vPz8CXQCtliqSJvQnxn3UQtBFP5scga3BOop8S8wVxywwJ9DXPY"/></div></div></header><div class="hidden fixed inset-0 z-50 bg-surface-container-lowest/95 backdrop-blur-2xl flex flex-col pt-safe pb-safe" id="mobile-drawer"><div class="h-20 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Imperial Crest Industries Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBobsrbOW4r3d6ltyvJYAe-xZ9H9TIxCaFYOiKyzR60QhVmEcJM3UyNYpiGamjo9CJA_ccealMnM1m892e6jPW8zFvgoXAlTr1XQhG6WMgWM0CbMIrDnHCJxU04_NLcx2mYo18YZiPso8s-jLFDZEtI90MqVl1vzKptm5IlRns1hcTCWEbwzMeCODs5ezvxRapqXsHuf9h4d932q638n5bBjtKPR35R1QWm8RgRxB4l"/><span class="font-headline-sm text-headline-sm tracking-wider text-secondary uppercase">IMPERIAL CREST</span></div><button class="w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary" onclick="document.getElementById('mobile-drawer').classList.add('hidden')" type="button"><span class="material-symbols-outlined text-[24px]">close</span></button></div><div class="flex-1 overflow-y-auto px-margin-mobile py-space-md flex flex-col justify-between"><nav class="flex flex-col gap-space-sm"><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="home" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">Home</a><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="about-us" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">About Us</a><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="services" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">Services</a><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="portfolio" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">Portfolio</a><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="enquiry-quote" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">Enquiry &amp; Quote</a><a class="py-space-sm font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" data-path="contact" href="#" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">Contact</a></nav><div class="pt-space-md flex flex-col gap-space-xs"><span class="font-label-caps-sm text-label-caps-sm text-outline uppercase">Direct Private Desk</span><a class="font-body-lg text-body-lg text-secondary" href="tel:0798784674">+27 79 878 4674</a><span class="font-body-sm text-body-sm text-on-surface-variant">TikTok: @imperialcrestindustries</span></div></div></div><main class="flex-1 flex flex-col relative w-full pt-20 bg-surface pb-36"><div class="flex flex-col w-full text-on-surface">
+<!-- 1. Architectural Hero Presentation -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest">
+<!-- Visual Monumental Backdrop -->
+<div class="relative w-full h-[580px] overflow-hidden">
+<div class="w-full h-full bg-cover bg-center scale-105 transition-transform duration-1000 ease-out" data-alt="Monolithic architectural luxury villa at dusk in Camps Bay Cape Town with glowing champagne gold interior lighting, cast concrete cantilevered balconies, infinity reflection pool, dark textured granite framing, and cinematic twilight sky." id="hero-canvas" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDfOQIIhmY3M2KLefZz7eqoW8wTrCWAfmez5iEgGQz-v95CizNBpNjRCby7ulHavZWzPVdk0T7es2avm6zoZcMq-vCo-oRh2WUq9iJekNFptGJ0gDpqMFoquGGuJdLHBPRzVJ9pzDQr744BCPA0bMWnSxtm5Cnfm3hsa9kKkXmc2jvESrhM9zcmqywGPQ-S4TqFjDHGqFQl6wh7-n_i1VMAv_0uujlAgRA4WRqNIxY')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface-container-lowest/60 to-surface-container-lowest/40"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/80 via-transparent to-surface-container-lowest/40"></div>
+<!-- Top Badge Overlay -->
+<div class="absolute top-5 left-margin-mobile right-margin-mobile flex justify-between items-center z-10">
+<div class="inline-flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-md shadow-lg">
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Premier SA Luxury Builders</span>
+</div>
+<div class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high/70 backdrop-blur-md">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-caps-sm text-label-caps-sm text-on-surface-variant">Sandton &amp; Atlantic Seaboard</span>
+</div>
+</div>
+<!-- Hero Glass Card Content -->
+<div class="absolute inset-x-margin-mobile bottom-8 flex flex-col z-10">
+<div class="p-space-lg rounded-xl bg-surface-container/85 backdrop-blur-xl shadow-2xl flex flex-col gap-space-sm relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-32 h-32 rounded-full bg-primary/10 blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">architecture</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Imperial Crest Standard</span>
+</div>
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface uppercase tracking-tight leading-tight">
+            Building Excellence. <br/>
+<span class="italic text-primary font-serif">Creating Legacies.</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            Transforming spaces. Elevating lifestyles. Delivering exceptional construction, architectural renovations, and interior solutions across South Africa.
+          </p>
+<!-- Dual Primary CTAs -->
+<div class="flex flex-col sm:flex-row gap-space-xs pt-space-xs">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-5 py-3 rounded-lg bg-primary text-on-primary font-label-caps-lg text-label-caps-lg uppercase transition-all duration-300 hover:bg-primary-fixed shadow-md active:scale-98" data-path="enquiry-quote" href="#">
+<span>Request a Free Quote</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-5 py-3 rounded-lg bg-surface-container-high/90 text-on-surface font-label-caps-lg text-label-caps-lg uppercase transition-all duration-300 hover:text-primary active:scale-98" data-path="portfolio" href="#">
+<span>Explore Our Projects</span>
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</a>
+</div>
+</div>
+<!-- Scroll Indicator Cue -->
+<div class="mt-space-sm flex items-center justify-center gap-space-xs self-center text-outline">
+<span class="font-label-caps-sm text-label-caps-sm tracking-widest uppercase">Scroll to explore</span>
+<div class="w-10 h-0.5 bg-primary/40 relative overflow-hidden rounded-full">
+<div class="absolute inset-y-0 w-4 bg-primary animate-pulse"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Value Proposition & Living Metric Showcase -->
+<section class="px-margin-mobile pt-space-xl pb-space-lg flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Structural Eminence</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+        Why South Africa’s Discerning Clients Entrust Imperial Crest
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        From Clifton cliffs to Sandhurst private compounds, our work commands lasting asset value and artisanal integrity.
+      </p>
+</div>
+<!-- Live Performance Metrics 2x2 Bento -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[20px]">apartment</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Delivered</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface">140<span class="text-primary font-serif">+</span></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Luxury residential &amp; prime commercial builds</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[20px]">workspace_premium</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Guaranteed</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface">100<span class="text-primary font-serif">%</span></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Quality assurance &amp; compliance adherence</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[20px]">monetization_on</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Asset Value</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface">R50M<span class="text-primary font-serif">+</span></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Property equity created for our clientele</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[20px]">history_edu</span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Legacy</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface">10<span class="text-primary font-serif">+</span></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Years of collective master craftsmanship</span>
+</div>
+</div>
+<!-- 4 Core Pillars of Differentiation List -->
+<div class="flex flex-col gap-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">handyman</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Uncompromising Workmanship</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Rigorous engineering inspections, artisan bricklaying, and monolithic cast structures engineered for generations.</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">draw</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Bespoke Architectural Detail</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Custom metal inlays, bookmatched natural stone, precision shadow lines, and acoustics designed to sovereign tolerances.</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">public</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">International Engineering Benchmarks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">South African compliance coupled with European joinery, imported fixtures, and modern thermal automation systems.</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">key</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Turnkey Concierge Execution</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">From council approvals and structural framing through to luxury commissioning and white-glove handover.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Core Service Pillars Preview -->
+<section class="px-margin-mobile py-space-lg flex flex-col gap-space-md bg-surface-container-low">
+<div class="flex justify-between items-end">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Our Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Triad of Mastery</h2>
+</div>
+<a class="font-label-caps-sm text-label-caps-sm text-primary flex items-center gap-1 hover:underline" data-path="services" href="#">
+<span>All Services</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</a>
+</div>
+<!-- Pillar 1: Construction -->
+<div class="rounded-xl overflow-hidden bg-surface-container shadow-lg flex flex-col">
+<div class="relative w-full h-44">
+<div class="w-full h-full bg-cover bg-center" data-alt="Pristine architectural construction of a luxury contemporary residence in Johannesburg with concrete framework, steel beams, glass curtain walls, and landscaped earthworks." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyr2AGOG7sv1W1z4VuLVZ7jLe-dDOHLxxFl_dNJtZ2zUjN5gl5fs532m2QcK9EcMKmKj5AERP2vqaCNXG_aW2OvlV72iS27HViu31NKDyW497qk-Ew-wxEZdk_L9p-kuDaPLeoG9XE6kFo1tqXGbBzQqw6tNBGQKxVKGyEtstD_PKaUoOWkkGpFrqrm7MP2t5gwRzwCQbv35IKIFJD5ANiHFBhOGgPDg7KlRoAATw')"></div>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="font-label-caps-sm text-label-caps-sm text-primary tracking-wider uppercase">Pillar I</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">New Structural Construction</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Turnkey estate developments, concrete cantilevered architectural residences, and multi-tier commercial structural frameworks.
+        </p>
+<div class="flex items-center gap-space-xs pt-space-xs text-secondary font-label-caps-sm text-label-caps-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">domain</span>
+<span>Foundation to Key Release</span>
+</div>
+</div>
+</div>
+<!-- Pillar 2: Renovations -->
+<div class="rounded-xl overflow-hidden bg-surface-container shadow-lg flex flex-col">
+<div class="relative w-full h-44">
+<div class="w-full h-full bg-cover bg-center" data-alt="Ultra-luxury remodeled open plan living space and kitchen with Calacatta gold marble island, fluted smoked oak joinery, recessed halo lighting, and minimalist matte black hardware." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEzg9hHGXHaSN9jyte7LGGhDrgle0Bk9IwSAgsJ1n_-VWWnwBnkHbRwmiYHkE-KJnOaVV-oKsPuJK1R4agc10wGq8eLegKaPTJgzEjz3qIJaeOvRN5rK_rQRWaHHnxPCwJb57fci_lQmeA-uWwTdY83AtnvMh86tp_hWcffhT73dWnp1o0jFmgbAV-TouNPllI3r8Fxw4dm3QYejxyMnIq5x8QVmWKw2YDFryVCYY')"></div>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="font-label-caps-sm text-label-caps-sm text-primary tracking-wider uppercase">Pillar II</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Comprehensive Remodels</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Complete structural metamorphosis, penthouse reconfigurations, spa ensuite sanctuaries, and epicurean show kitchens.
+        </p>
+<div class="flex items-center gap-space-xs pt-space-xs text-secondary font-label-caps-sm text-label-caps-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">home_repair_service</span>
+<span>Asset Value Multiplication</span>
+</div>
+</div>
+</div>
+<!-- Pillar 3: Interior Design -->
+<div class="rounded-xl overflow-hidden bg-surface-container shadow-lg flex flex-col">
+<div class="relative w-full h-44">
+<div class="w-full h-full bg-cover bg-center" data-alt="Bespoke luxury interior bedroom suite featuring custom textured suede headboard wall, brass accent sconces, travertine bedside pedestals, and warm architectural cove lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA3ModJbfxbHLaVDG33JfkOewm9BwamWNn3BwCcExmq2YP0Kuavm2piFoISEA1M2GzVcPMlwGAmhzQwdqO1Out-OeSGiRX6rWidt1HrOgWCwvhHwH6PHu-hscozeo_Dh4HwneVdv4yAarbCD4f81quzTusRAwnN29KbUa7D3KU_m_dqj3_DAcPuIEDVURq2aSFlZQX00CqrIJbq8BEJ7haW6uy7uZLR2TSWaj9Sa2M')"></div>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="font-label-caps-sm text-label-caps-sm text-primary tracking-wider uppercase">Pillar III</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Interior Design &amp; Curation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Harmonious material palettes, custom cabinetry fabrication, bespoke lighting choreography, and white-glove procurement.
+        </p>
+<div class="flex items-center gap-space-xs pt-space-xs text-secondary font-label-caps-sm text-label-caps-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">palette</span>
+<span>Artisanal Finish Coordination</span>
+</div>
+</div>
+</div>
+<!-- Direct Project Director Trigger Card -->
+<div class="p-space-md rounded-xl bg-surface-container-highest flex items-center justify-between gap-space-sm shadow-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Private Project Desk</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Talk with our Director</span>
+</div>
+</div>
+<a class="inline-flex items-center justify-center px-4 py-2 rounded bg-primary text-on-primary font-label-caps-sm text-label-caps-sm uppercase tracking-wider shrink-0 shadow-sm" href="tel:0798784674">
+        079 878 4674
+      </a>
+</div>
+</section>
+<!-- 4. Featured Project Highlight: Camps Bay Villa (Interactive Renovation Preview) -->
+<section class="px-margin-mobile py-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Case Study Portfolio</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Clifton Panorama Estate</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        A total structural rehabilitation of a 920m² ocean-facing private compound in Cape Town.
+      </p>
+</div>
+<!-- Interactive Before / After Comparison Showcase -->
+<div class="rounded-xl overflow-hidden bg-surface-container shadow-2xl flex flex-col">
+<div class="relative w-full h-64 overflow-hidden select-none" id="slider-container">
+<!-- "After" Image (Full Base) -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Spectacular finished luxury modern villa terrace overlooking the Atlantic ocean in Camps Bay with bronze balustrades, honed travertine deck, integrated gas fire pit, and floor to ceiling glazing." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZ_u2SApmAoi9ZaPfoiR9qhdPJhcS6S35D_I5V2ExjBr0w8SOpEbUD_xBbhTqBmO4QUYxYgApQp--rFLk2qRaPkvIpE0cH9aVCEfpznNIEfkAaZjuQ3e9exDbGx1p3Tma3CQ1ngc183nYySS-D6N7CL9Q3s62r6ztwngZ7YEjJ7fropsanOmXK4ng4fJs3WHrZsT45f939gWTDXxRPf1Ka5RhzUwavONuMLdbIXW4')"></div>
+<!-- "Before" Image (Clipped Overlay) -->
+<div class="absolute inset-0 bg-cover bg-center transition-all duration-75" data-alt="Outdated 1990s weathered coastal home under partial demolition and framing with exposed raw concrete, scaffolding, stripped floors, and construction equipment." id="before-image-layer" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBpUs92MATKkE8XVH0T0h-GfQDWYyfgMTzxHQGoepyFl3gMPobNydh9s0kBPp3ayIiHJXEBoQpiQ0_jh-aysrGFwFNNmzUaSRFMYWvsi7ku3_cKapQPZx8istQLD1Dc6y1It8brc6i5TPP4MRUaOXN_c8fPPskmJIf772OUsUVL4KVEYRoMVcwZMXsjs7xQcCo-uDRZdq8Oim3xXvccCRJ7mdu14pT79OYGi8y0-qU'); clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);"></div>
+<!-- Divider Line & Handle -->
+<div class="absolute inset-y-0 left-1/2 -ml-0.5 w-1 bg-primary cursor-ew-resize flex items-center justify-center shadow-[0_0_12px_rgba(242,202,80,0.8)]" id="slider-divider">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[16px]">drag_indicator</span>
+</div>
+</div>
+<!-- Static Floating Labels -->
+<div class="absolute bottom-3 left-3 px-2 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Initial State</span>
+</div>
+<div class="absolute bottom-3 right-3 px-2 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="font-label-caps-sm text-label-caps-sm text-primary uppercase">Handover State</span>
+</div>
+</div>
+<!-- Project Specification Ribbon -->
+<div class="p-space-md flex flex-col gap-space-sm bg-surface-container">
+<div class="flex items-center justify-between pb-space-xs">
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-outline uppercase tracking-wider">Location</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">Camps Bay, Western Cape</p>
+</div>
+<div class="text-right">
+<span class="font-label-caps-sm text-label-caps-sm text-outline uppercase tracking-wider">Project Timeline</span>
+<p class="font-headline-sm text-headline-sm text-primary">8 Months Handover</p>
+</div>
+</div>
+<!-- Spec Data Rows -->
+<div class="grid grid-cols-3 gap-space-xs py-space-xs bg-surface-container-high/60 rounded-lg p-space-xs text-center">
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-on-surface-variant block">Scope</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">920 m²</span>
+</div>
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-on-surface-variant block">Style</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Modernist</span>
+</div>
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-on-surface-variant block">Status</span>
+<span class="font-body-sm text-body-sm text-primary font-medium">Completed</span>
+</div>
+</div>
+<a class="w-full mt-space-xs inline-flex items-center justify-center gap-space-xs py-3 rounded-lg bg-surface-container-highest text-secondary hover:text-primary font-label-caps-lg text-label-caps-lg uppercase transition-colors" data-path="portfolio" href="#">
+<span>Examine Project Blueprint &amp; Gallery</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 5. Client Testimonial & Institutional Assurance -->
+<section class="px-margin-mobile py-space-lg flex flex-col gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-xl flex flex-col gap-space-md relative overflow-hidden">
+<div class="absolute -right-12 -bottom-12 w-40 h-40 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="flex items-center justify-between">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Verified Client Review</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm text-on-surface italic leading-snug">
+        “Imperial Crest delivered our Sandhurst home six weeks ahead of contract date. Their precision, sub-millimeter joinery, and transparency in budget management establish them as South Africa’s most formidable luxury contractor.”
+      </blockquote>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Professional studio portrait of an executive South African real estate investor and private homeowner in an elegant dark tailored suit with subtle warm lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYptl3h20iuRVDANfynVfmcRKiKOSkJAPODrt0cPM_jjcc-frYQHhXR9Bfr7pO23LCK3phSLbYI7DdQgEq6pAkEASDSFFZCwAwAyieuEFB8Yqqxk2m1LUJ7p8MYWaR8f14Lu1XE0VdsM8_gMEu4DhQVp3p_wyIf3czE3DkbxtgociwDi631ZicPE2lFeBTXdOxE_Ac_mp01K-ltBmBVhjSxg6cCejnd9WoD1q-97k"/>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Dr. M. van der Merwe</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Private Property Portfolio Investor • Sandhurst &amp; Bishopscourt</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. High-Urgency Executive Consultation Banner -->
+<section class="px-margin-mobile py-space-lg pb-space-xl">
+<div class="p-space-lg rounded-xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-lowest shadow-2xl flex flex-col gap-space-md text-center items-center relative overflow-hidden">
+<div class="w-12 h-12 rounded-full bg-primary/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">handshake</span>
+</div>
+<div class="flex flex-col gap-space-xs max-w-sm">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">Commission Your Vision</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Initiate Your Consultation</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Direct priority connection with our lead structural engineers and interior design directors. Complimentary site assessment available this month.
+        </p>
+</div>
+<!-- Action Trigger Matrix -->
+<div class="w-full flex flex-col gap-space-xs pt-space-xs max-w-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-lg bg-primary text-on-primary font-label-caps-lg text-label-caps-lg uppercase tracking-wider shadow-lg hover:bg-primary-fixed transition-all active:scale-98" href="https://wa.me/27798784674?text=Hello%20Imperial%20Crest,%20I%20would%20like%20to%20discuss%20a%20new%20luxury%20project." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Instant WhatsApp: 079 878 4674</span>
+</a>
+<a class="w-full inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-lg bg-surface-container-lowest text-secondary hover:text-primary font-label-caps-lg text-label-caps-lg uppercase tracking-wider transition-colors active:scale-98" data-path="enquiry-quote" href="#">
+<span class="material-symbols-outlined text-[20px]">request_quote</span>
+<span>Submit Comprehensive Spec Sheet</span>
+</a>
+</div>
+<div class="flex items-center gap-space-xs text-outline font-label-caps-sm text-label-caps-sm">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>Strict Non-Disclosure Agreements Honored</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  (function() {
+    // Before & After Interactive Touch / Mouse Slider Logic
+    const container = document.getElementById('slider-container');
+    const beforeLayer = document.getElementById('before-image-layer');
+    const divider = document.getElementById('slider-divider');
+
+    if (container && beforeLayer && divider) {
+      let isDragging = false;
+
+      const updateSlider = (clientX) => {
+        const rect = container.getBoundingClientRect();
+        let position = ((clientX - rect.left) / rect.width) * 100;
+        if (position < 5) position = 5;
+        if (position > 95) position = 95;
+
+        beforeLayer.style.clipPath = `polygon(0 0, ${position}% 0, ${position}% 100%, 0 100%)`;
+        divider.style.left = `${position}%`;
+      };
+
+      const onStart = (e) => {
+        isDragging = true;
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        updateSlider(clientX);
+      };
+
+      const onMove = (e) => {
+        if (!isDragging) return;
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        updateSlider(clientX);
+      };
+
+      const onEnd = () => {
+        isDragging = false;
+      };
+
+      container.addEventListener('mousedown', onStart);
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onEnd);
+
+      container.addEventListener('touchstart', onStart, { passive: true });
+      window.addEventListener('touchmove', onMove, { passive: true });
+      window.addEventListener('touchend', onEnd);
+    }
+  })();
+</script><footer class="mt-space-xl px-margin-mobile py-space-xl bg-surface-container-lowest/90 backdrop-blur-xl flex flex-col gap-space-md shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"><div class="flex items-center gap-space-sm"><img alt="Imperial Crest Industries Monogram Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBobsrbOW4r3d6ltyvJYAe-xZ9H9TIxCaFYOiKyzR60QhVmEcJM3UyNYpiGamjo9CJA_ccealMnM1m892e6jPW8zFvgoXAlTr1XQhG6WMgWM0CbMIrDnHCJxU04_NLcx2mYo18YZiPso8s-jLFDZEtI90MqVl1vzKptm5IlRns1hcTCWEbwzMeCODs5ezvxRapqXsHuf9h4d932q638n5bBjtKPR35R1QWm8RgRxB4l"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-secondary uppercase">Imperial Crest Industries</span><span class="font-label-caps-sm text-label-caps-sm text-outline uppercase">South Africa</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant">Construction | Renovations | Interior Design</p><div class="flex flex-col gap-space-xs pt-space-xs"><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[16px] text-primary">phone_iphone</span><a class="font-body-sm text-body-sm text-secondary hover:underline" href="tel:0798784674">079 878 4674</a></div><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[16px] text-primary">tag</span><span class="font-body-sm text-body-sm text-on-surface-variant">TikTok: @imperialcrestindustries</span></div></div><div class="flex flex-wrap gap-x-space-md gap-y-space-xs pt-space-xs font-label-caps-sm text-label-caps-sm text-outline"><a class="hover:text-primary transition-colors" data-path="about-us" href="#">About</a><a class="hover:text-primary transition-colors" data-path="services" href="#">Services</a><a class="hover:text-primary transition-colors" data-path="portfolio" href="#">Portfolio</a><a class="hover:text-primary transition-colors" data-path="enquiry-quote" href="#">Quote</a><a class="hover:text-primary transition-colors" data-path="contact" href="#">Contact</a></div><p class="font-body-sm text-body-sm text-on-surface-variant/60 pt-space-xs">© Imperial Crest Industries. All rights reserved.</p></footer></main><div class="fixed bottom-24 right-margin-mobile z-50 flex items-center group"><div class="hidden sm:flex mr-space-xs px-space-sm py-1.5 rounded-lg bg-surface-container-highest/95 backdrop-blur-md shadow-[0_4px_16px_rgba(0,0,0,0.6)] font-label-caps-sm text-label-caps-sm text-secondary pointer-events-none whitespace-nowrap">Chat on WhatsApp: 079 878 4674</div><a aria-label="Chat on WhatsApp: 079 878 4674" class="relative w-12 h-12 rounded-full bg-[#1F3D2B] text-primary shadow-[0_4px_20px_rgba(0,0,0,0.6)] flex items-center justify-center transition-transform active:scale-95" href="https://wa.me/27798784674" rel="noopener noreferrer" target="_blank"><span class="absolute inset-0 rounded-full bg-primary/20 animate-ping opacity-75"></span><span class="material-symbols-outlined text-[24px] text-secondary relative z-10">chat</span></a></div><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.6)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[48px] h-12 transition-colors text-primary font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[20px]">home</span><span class="font-label-caps-sm text-label-caps-sm mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 text-on-surface-variant hover:text-primary transition-colors" data-path="services" href="#"><span class="material-symbols-outlined text-[20px]">architecture</span><span class="font-label-caps-sm text-label-caps-sm mt-0.5">Services</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 text-on-surface-variant hover:text-primary transition-colors" data-path="portfolio" href="#"><span class="material-symbols-outlined text-[20px]">apartment</span><span class="font-label-caps-sm text-label-caps-sm mt-0.5">Portfolio</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 text-on-surface-variant hover:text-primary transition-colors" data-path="enquiry-quote" href="#"><span class="material-symbols-outlined text-[20px]">request_quote</span><span class="font-label-caps-sm text-label-caps-sm mt-0.5">Quote</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[20px]">mail</span><span class="font-label-caps-sm text-label-caps-sm mt-0.5">Contact</span></a></div></nav></body></html>
